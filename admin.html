@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Database Admin</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex flex-column min-vh-100 bg-light">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-car me-2"></i>CarFacts Admin
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="fas fa-arrow-left me-1"></i>Back to Main Site
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow-1 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <!-- Add Car Form -->
+                    <div class="card shadow mb-5">
+                        <div class="card-header bg-white">
+                            <h2 class="h4 mb-0"><i class="fas fa-plus-circle me-2"></i>Add New Car</h2>
+                        </div>
+                        <div class="card-body">
+                            <form id="carForm" class="needs-validation" novalidate>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="make" class="form-label">Make</label>
+                                        <input type="text" class="form-control" id="make" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a make.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="model" class="form-label">Model</label>
+                                        <input type="text" class="form-control" id="model" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a model.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="year" class="form-label">Year</label>
+                                        <input type="number" class="form-control" id="year" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid year.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="engine" class="form-label">Engine</label>
+                                        <input type="text" class="form-control" id="engine" required>
+                                        <div class="invalid-feedback">
+                                            Please provide engine details.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="horsepower" class="form-label">Horsepower</label>
+                                        <input type="number" class="form-control" id="horsepower" required>
+                                        <div class="invalid-feedback">
+                                            Please provide horsepower.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="transmission" class="form-label">Transmission</label>
+                                        <input type="text" class="form-control" id="transmission" required>
+                                        <div class="invalid-feedback">
+                                            Please provide transmission type.
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="driveType" class="form-label">Drive Type</label>
+                                        <select class="form-select" id="driveType" required>
+                                            <option value="" selected disabled>Select drive type</option>
+                                            <option value="Front-wheel drive">Front-wheel drive</option>
+                                            <option value="Rear-wheel drive">Rear-wheel drive</option>
+                                            <option value="All-wheel drive">All-wheel drive</option>
+                                            <option value="Four-wheel drive">Four-wheel drive</option>
+                                        </select>
+                                        <div class="invalid-feedback">
+                                            Please select a drive type.
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-12">
+                                        <h5 class="mt-4 mb-3"><i class="fas fa-gas-pump me-2"></i>Fuel Economy</h5>
+                                        <div class="row g-3">
+                                            <div class="col-md-6">
+                                                <label for="cityMPG" class="form-label">City MPG</label>
+                                                <input type="number" class="form-control" id="cityMPG" required>
+                                                <div class="invalid-feedback">
+                                                    Please provide city MPG.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="highwayMPG" class="form-label">Highway MPG</label>
+                                                <input type="number" class="form-control" id="highwayMPG" required>
+                                                <div class="invalid-feedback">
+                                                    Please provide highway MPG.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-12">
+                                        <label for="features" class="form-label">Features (comma separated)</label>
+                                        <textarea class="form-control" id="features" rows="3" required></textarea>
+                                        <div class="invalid-feedback">
+                                            Please provide at least one feature.
+                                        </div>
+                                        <div class="form-text">
+                                            Separate multiple features with commas (e.g., "Sunroof, Leather Seats, Navigation")
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-12 mt-4">
+                                        <button class="btn btn-primary px-4" type="submit">
+                                            <i class="fas fa-save me-2"></i>Add Car
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <!-- Current Cars -->
+                    <div class="card shadow">
+                        <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                            <h2 class="h4 mb-0"><i class="fas fa-car me-2"></i>Current Cars</h2>
+                            <span class="badge bg-primary">${carData.length} cars</span>
+                        </div>
+                        <div class="card-body">
+                            <div id="currentCarsList" class="row g-4">
+                                <div class="col-12 text-center py-5 empty-state">
+                                    <i class="fas fa-car fa-4x text-muted mb-3"></i>
+                                    <p class="text-muted">No cars in database</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-auto">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2023 Car Facts Database. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,402 @@
+[
+  {
+    "make": "Bugatti",
+    "model": "Chiron Super Sport 300+",
+    "year": 2022,
+    "engine": "8.0L Quad-Turbocharged W16",
+    "horsepower": 1578,
+    "transmission": "7-Speed Dual-Clutch Automatic",
+    "driveType": "All-Wheel Drive",
+    "fuelEconomy": {
+      "city": 9,
+      "highway": 14
+    },
+    "features": [
+      "Carbon Fiber Body",
+      "Top Speed Limited to 273 mph",
+      "Advanced Aerodynamics",
+      "Handcrafted Interior",
+      "Custom Color Options"
+    ]
+  },
+  {
+    "make": "Koenigsegg",
+    "model": "Jesko Absolut",
+    "year": 2023,
+    "engine": "5.0L Twin-Turbocharged V8",
+    "horsepower": 1600,
+    "transmission": "9-Speed Multi-Clutch",
+    "driveType": "Rear-Wheel Drive",
+    "fuelEconomy": {
+      "city": 10,
+      "highway": 15
+    },
+    "features": [
+      "Theoretical Top Speed 330+ mph",
+      "Ultra-Light Carbon Fiber Construction",
+      "Active Aerodynamics",
+      "Triplex Suspension",
+      "Dihedral Synchro Helix Doors"
+    ]
+  },
+  {
+    "make": "Hennessey",
+    "model": "Venom F5",
+    "year": 2022,
+    "engine": "6.6L Twin-Turbocharged V8",
+    "horsepower": 1817,
+    "transmission": "7-Speed Single-Clutch",
+    "driveType": "Rear-Wheel Drive",
+    "fuelEconomy": {
+      "city": 8,
+      "highway": 12
+    },
+    "features": [
+      "Carbon Fiber Monocoque",
+      "Top Speed Goal: 311 mph",
+      "Ultra-Lightweight Design",
+      "Aerodynamic Body",
+      "Customizable Interior"
+    ]
+  },
+  {
+    "make": "Rimac",
+    "model": "Nevera",
+    "year": 2023,
+    "engine": "Electric (4 Motors)",
+    "horsepower": 1914,
+    "transmission": "Single-Speed Automatic",
+    "driveType": "All-Wheel Drive",
+    "fuelEconomy": {
+      "city": 120,
+      "highway": 100
+    },
+    "features": [
+      "All-Electric Hypercar",
+      "0-60 mph in 1.85 seconds",
+      "340 Miles Range",
+      "Torque Vectoring",
+      "AI Driver Assistance"
+    ]
+  },
+  {
+    "make": "Pagani",
+    "model": "Huayra BC",
+    "year": 2022,
+    "engine": "6.0L Twin-Turbocharged V12",
+    "horsepower": 791,
+    "transmission": "7-Speed Sequential",
+    "driveType": "Rear-Wheel Drive",
+    "fuelEconomy": {
+      "city": 11,
+      "highway": 16
+    },
+    "features": [
+      "Handcrafted Carbon-Titanium Body",
+      "Active Aerodynamics",
+      "Exposed Gearbox",
+      "Sculpted Interior",
+      "Limited to 40 Units"
+    ]
+  },
+  {
+    "make": "McLaren",
+    "model": "Speedtail",
+    "year": 2021,
+    "engine": "4.0L Twin-Turbocharged V8 Hybrid",
+    "horsepower": 1035,
+    "transmission": "7-Speed Dual-Clutch",
+    "driveType": "Rear-Wheel Drive",
+    "fuelEconomy": {
+      "city": 18,
+      "highway": 25
+    },
+    "features": [
+      "1,035 HP Hybrid Powertrain",
+      "Top Speed: 250 mph",
+      "Central Driving Position",
+      "Carbon Fiber Body",
+      "Limited to 106 Units"
+    ]
+  },
+  {
+    "make": "Ferrari",
+    "model": "SF90 Stradale",
+    "year": 2023,
+    "engine": "4.0L Twin-Turbo V8 Hybrid",
+    "horsepower": 986,
+    "transmission": "8-Speed Dual-Clutch",
+    "driveType": "All-Wheel Drive",
+    "fuelEconomy": {
+      "city": 20,
+      "highway": 28
+    },
+    "features": [
+      "Plug-In Hybrid System",
+      "0-60 mph in 2.5 seconds",
+      "E-Manual Shifting",
+      "Active Rear Wing",
+      "Virtual Instrument Cluster"
+    ]
+  },
+  {
+    "make": "Lamborghini",
+    "model": "Sian FKP 37",
+    "year": 2022,
+    "engine": "6.5L V12 Hybrid",
+    "horsepower": 819,
+    "transmission": "7-Speed ISR",
+    "driveType": "All-Wheel Drive",
+    "fuelEconomy": {
+      "city": 14,
+      "highway": 20
+    },
+    "features": [
+      "Supercapacitor Hybrid System",
+      "Limited to 63 Units",
+      "Lamborghini's First Hybrid",
+      "Scissor Doors",
+      "Aerodynamic Design"
+    ]
+  },
+  {
+    "make": "Aston Martin",
+    "model": "Valkyrie",
+    "year": 2023,
+    "engine": "6.5L V12 Hybrid",
+    "horsepower": 1160,
+    "transmission": "7-Speed Sequential",
+    "driveType": "Rear-Wheel Drive",
+    "fuelEconomy": {
+      "city": 10,
+      "highway": 15
+    },
+    "features": [
+      "Cosworth-Developed V12",
+      "Lightweight Carbon Fiber Construction",
+      "Active Aerodynamics",
+      "Center Driving Position",
+      "Limited Production"
+    ]
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "AMG One",
+    "year": 2023,
+    "engine": "1.6L V6 Hybrid (F1 Derived)",
+    "horsepower": 1049,
+    "transmission": "8-Speed Automated Manual",
+    "driveType": "All-Wheel Drive",
+    "fuelEconomy": {
+      "city": 15,
+      "highway": 22
+    },
+    "features": [
+      "F1 Technology for Road",
+      "11,000 RPM Redline",
+      "Active Aerodynamics",
+      "Hybrid Powertrain",
+      "Limited to 275 Units"
+    ]
+  },
+  {
+    "make": "Gordon Murray",
+    "model": "T.50",
+    "year": 2023,
+    "engine": "4.0L Naturally Aspirated V12",
+    "horsepower": 654,
+    "transmission": "6-Speed Manual",
+    "driveType": "Rear-Wheel Drive",
+    "fuelEconomy": {
+      "city": 12,
+      "highway": 18
+    },
+    "features": [
+      "12,100 RPM Redline",
+      "Fan-Assisted Aerodynamics",
+      "Central Driving Position",
+      "Ultra-Lightweight Design",
+      "Limited to 100 Units"
+    ]
+  },
+  {
+    "make": "Pininfarina",
+    "model": "Battista",
+    "year": 2023,
+    "engine": "Electric (4 Motors)",
+    "horsepower": 1900,
+    "transmission": "Single-Speed",
+    "driveType": "All-Wheel Drive",
+    "fuelEconomy": {
+      "city": 110,
+      "highway": 90
+    },
+    "features": [
+      "0-60 mph in 1.79 seconds",
+      "300 Miles Range",
+      "Carbon Fiber Monocoque",
+      "Torque Vectoring",
+      "Limited to 150 Units"
+    ]
+  },
+  {
+    "make": "SSC",
+    "model": "Tuatara",
+    "year": 2023,
+    "engine": "5.9L Twin-Turbocharged V8",
+    "horsepower": 1750,
+    "transmission": "7-Speed Automated Manual",
+    "driveType": "Rear-Wheel Drive",
+    "fuelEconomy": {
+      "city": 9,
+      "highway": 13
+    },
+    "features": [
+      "Carbon Fiber Construction",
+      "Top Speed: 295+ mph",
+      "Active Aerodynamics",
+      "Lightweight Design",
+      "Limited Production"
+    ]
+  },
+  {
+    "make": "Koenigsegg",
+    "model": "Gemera",
+    "year": 2024,
+    "engine": "2.0L Twin-Turbo 3-Cylinder Hybrid",
+    "horsepower": 1700,
+    "transmission": "9-Speed Multi-Clutch",
+    "driveType": "All-Wheel Drive",
+    "fuelEconomy": {
+      "city": 25,
+      "highway": 35
+    },
+    "features": [
+      "4-Seater Hypercar",
+      "0-60 mph in 1.9 seconds",
+      "Freevalve Technology",
+      "Carbon Fiber Construction",
+      "Limited to 300 Units"
+    ]
+  },
+  {
+    "make": "Pagani",
+    "model": "Utopia",
+    "year": 2024,
+    "engine": "6.0L Twin-Turbo V12",
+    "horsepower": 864,
+    "transmission": "7-Speed Manual/Sequential",
+    "driveType": "Rear-Wheel Drive",
+    "fuelEconomy": {
+      "city": 12,
+      "highway": 17
+    },
+    "features": [
+      "Handcrafted Aluminum Body",
+      "Exposed Gear Linkage",
+      "Titanium Exhaust",
+      "Artisanal Interior",
+      "Limited Production"
+    ]
+  },
+  {
+    "make": "Ferrari",
+    "model": "Daytona SP3",
+    "year": 2023,
+    "engine": "6.5L Naturally Aspirated V12",
+    "horsepower": 829,
+    "transmission": "7-Speed Dual-Clutch",
+    "driveType": "Rear-Wheel Drive",
+    "fuelEconomy": {
+      "city": 11,
+      "highway": 16
+    },
+    "features": [
+      "Tribute to 1967 Ferrari 330 P4",
+      "9,500 RPM Redline",
+      "Active Aerodynamics",
+      "Carbon Fiber Body",
+      "Limited to 599 Units"
+    ]
+  },
+  {
+    "make": "Lamborghini",
+    "model": "Revuelto",
+    "year": 2024,
+    "engine": "6.5L V12 Hybrid",
+    "horsepower": 1001,
+    "transmission": "8-Speed Dual-Clutch",
+    "driveType": "All-Wheel Drive",
+    "fuelEconomy": {
+      "city": 15,
+      "highway": 22
+    },
+    "features": [
+      "First V12 Hybrid Lamborghini",
+      "0-60 mph in 2.5 seconds",
+      "Aerodynamic Design",
+      "Advanced Infotainment",
+      "Scissor Doors"
+    ]
+  },
+  {
+    "make": "McLaren",
+    "model": "Solus GT",
+    "year": 2023,
+    "engine": "5.2L Naturally Aspirated V10",
+    "horsepower": 840,
+    "transmission": "7-Speed Sequential",
+    "driveType": "Rear-Wheel Drive",
+    "fuelEconomy": {
+      "city": 10,
+      "highway": 14
+    },
+    "features": [
+      "Single-Seat Track Car",
+      "10,000 RPM Redline",
+      "Ultra-Lightweight Design",
+      "Full Carbon Fiber Body",
+      "Limited to 25 Units"
+    ]
+  },
+  {
+    "make": "Bugatti",
+    "model": "Bolide",
+    "year": 2024,
+    "engine": "8.0L Quad-Turbocharged W16",
+    "horsepower": 1578,
+    "transmission": "7-Speed Dual-Clutch",
+    "driveType": "All-Wheel Drive",
+    "fuelEconomy": {
+      "city": 7,
+      "highway": 10
+    },
+    "features": [
+      "Track-Focused Hypercar",
+      "Extreme Lightweight Design",
+      "Active Aerodynamics",
+      "Race Car Inspired",
+      "Limited to 40 Units"
+    ]
+  },
+  {
+    "make": "Koenigsegg",
+    "model": "CC850",
+    "year": 2023,
+    "engine": "5.0L Twin-Turbocharged V8",
+    "horsepower": 1385,
+    "transmission": "6-Speed Manual/9-Speed Auto",
+    "driveType": "Rear-Wheel Drive",
+    "fuelEconomy": {
+      "city": 12,
+      "highway": 18
+    },
+    "features": [
+      "Tribute to CC8S",
+      "Engage Shift System",
+      "Carbon Fiber Construction",
+      "Removable Hardtop",
+      "Limited to 50 Units"
+    ]
+  }
+]
